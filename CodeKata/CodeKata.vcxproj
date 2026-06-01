@@ -155,9 +155,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeKata.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Solutions\" />
+    <ClCompile Include="Solutions\12915.cpp" />
+    <ClCompile Include="Solutions\12930.cpp" />
+    <ClCompile Include="Solutions\12939.cpp" />
+    <ClCompile Include="Solutions\12945.cpp" />
+    <ClCompile Include="Solutions\12951.cpp" />
+    <ClCompile Include="Solutions\12953.cpp" />
+    <ClCompile Include="Solutions\12985.cpp" />
+    <ClCompile Include="Solutions\131705.cpp" />
+    <ClCompile Include="Solutions\132267.cpp" />
+    <ClCompile Include="Solutions\135808.cpp" />
+    <ClCompile Include="Solutions\138476.cpp" />
+    <ClCompile Include="Solutions\147355.cpp" />
+    <ClCompile Include="Solutions\159994.cpp" />
+    <ClCompile Include="Solutions\42748.cpp" />
+    <ClCompile Include="Solutions\42840.cpp" />
+    <ClCompile Include="Solutions\42842.cpp" />
+    <ClCompile Include="Solutions\42862.cpp" />
+    <ClCompile Include="Solutions\68644.cpp" />
+    <ClCompile Include="Solutions\70129.cpp" />
+    <ClCompile Include="Solutions\76502.cpp" />
+    <ClCompile Include="Solutions\81301.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
