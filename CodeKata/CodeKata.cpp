@@ -1,10 +1,11 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
-string solution(string str);
+int solution(vector<int> citations);
 
 int main()
 {
-    cout << solution("try hello world");
+    cout << solution({3, 0, 6, 1, 5});
     return 0;
 }
