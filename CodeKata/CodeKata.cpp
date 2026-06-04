@@ -2,10 +2,13 @@
 #include <vector>
 
 using namespace std;
-int solution(vector<int> citations);
+vector<int> solution(int n, long long left, long long right);
 
 int main()
 {
-    cout << solution({3, 0, 6, 1, 5});
+    for (auto& a : solution(3, 2, 5))
+    {
+        cout << a << " ";
+    }
     return 0;
 }
