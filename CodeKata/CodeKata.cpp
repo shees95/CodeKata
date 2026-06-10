@@ -2,13 +2,15 @@
 #include <vector>
 
 using namespace std;
-vector<int> solution(int n, long long left, long long right);
+int solution(vector<vector<string>> clothes);
 
 int main()
 {
-    for (auto& a : solution(3, 2, 5))
-    {
-        cout << a << " ";
-    }
+    vector<vector<string>> arr1 = {{"yellow_hat", "headgear"}, 
+                                {"blue_sunglasses", "eyewear"}, 
+                                {"green_turban", "headgear"}
+                                };
+        
+    cout << solution(arr1);
     return 0;
 }
