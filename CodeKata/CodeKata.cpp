@@ -2,15 +2,16 @@
 #include <vector>
 
 using namespace std;
-int solution(vector<vector<string>> clothes);
+vector<int> solution(vector<int> progresses, vector<int> speeds);
 
 int main()
 {
-    vector<vector<string>> arr1 = {{"yellow_hat", "headgear"}, 
-                                {"blue_sunglasses", "eyewear"}, 
-                                {"green_turban", "headgear"}
-                                };
+    vector<int> progresses = {95, 90, 99, 99, 80, 99};
+    vector<int> seeds = {1, 1, 1, 1, 1, 1};
         
-    cout << solution(arr1);
+    for (auto& a : solution(progresses, seeds))
+    {
+        cout << a << " ";
+    }
     return 0;
 }

@@ -155,7 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeKata.cpp" />
-    <ClCompile Include="Solutions\42578.cpp" />
+    <ClCompile Include="Solutions\42586.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
